@@ -1,0 +1,18 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "SDE Behavioral Interview App"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "accelerate>=0.26.0",
+    "fastapi[standard]>=0.115.6",
+    "google-genai>=0.4.0",
+    "httpx>=0.28.1",
+    "pydub>=0.25.1",
+    "soundfile>=0.13.0",
+    "torch>=2.5.1",
+    "torchaudio>=2.5.1",
+    "transformers>=4.48.0",
+]
