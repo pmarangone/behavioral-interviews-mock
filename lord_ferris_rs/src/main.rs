@@ -50,6 +50,7 @@ async fn main() {
                         let is_localhost_http =
                             (host == "localhost" || host == "127.0.0.1" || host == "0.0.0.0")
                                 && origin_url.scheme() == "http";
+                        !=
                         is_vercel_https || is_localhost_http
                     } else {
                         false
